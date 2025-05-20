@@ -1,10 +1,14 @@
 plugins {
     id("java")
+    id("com.github.ben-manes.versions") version "0.52.0"
+    id("application")
+    id("checkstyle")
 }
-
-group = "hexlet.code"
+group = "App.java"
 version = "1.0-SNAPSHOT"
-
+application {
+	mainClass = "hexlet.code.App"
+}
 repositories {
     mavenCentral()
 }
