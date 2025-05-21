@@ -1,5 +1,4 @@
 package hexlet.code;
-import hexlet.code.Engine;
 
 public class App {
 
